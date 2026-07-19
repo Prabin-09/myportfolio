@@ -6,10 +6,10 @@ const Header = () => {
 
   const menuItems = [
     {name: 'Education', href:'#education'},
-    {name: 'Certificates', href: '#certificate'},
+    {name: 'Certificates', href: '#certificates'},
     {name: 'About Me', href:'#about'},
     {name: 'Skills', href: '#skills'},
-    {name: 'Projects', href: '#project'}
+    {name: 'Projects', href: '#projects'}
   ];
   const scrollToSection = (href) => {
     setIsMenuOpen(false);
