@@ -1,6 +1,6 @@
 import React from 'react'
 import { Download } from "lucide-react";
-import hero from '../assets/hero.png'; 
+import hero from '../assets/hero3.png'; 
 
 const HeroSection = () => {
   return (
@@ -43,7 +43,7 @@ const HeroSection = () => {
                                     <div className='download-loader text-white hidden'></div>
 
                                 </div>
-                                <a href="/resume.pdf"
+                                <a href="src\assets\resume.pdf"
                                 download="resume.pdf" className='pl-2 text-primary' >
                                 Download resume
                                 </a>

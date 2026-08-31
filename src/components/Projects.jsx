@@ -1,5 +1,5 @@
 import React from 'react'
-import proj1 from '../assets/proj1.png';
+import proj1 from '../assets/proj01.png';
 import proj2 from '../assets/proj2.png';
 import proj3 from '../assets/proj3.png';
 import proj4 from '../assets/proj4.png';
@@ -11,9 +11,9 @@ const Projects = () => {
         {
             id: 1,
             image: proj1,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
+            title: 'Shorts Clipping Platform',
+            desc: 'Modern solution for clipping long form video into short form',
+            tech: ['Python']
         },
         {
             id: 2,
@@ -22,34 +22,34 @@ const Projects = () => {
             desc: 'Tracks workouts and nutritions',
             tech: ['React Native', 'firebase']
         },
-        {
-            id: 3,
-            image: proj3,
-            title: 'AI image Generator',
-            desc: 'Modern e-commerce solution',
-            tech: ['Python', 'React', 'Tensorflow']
-        },
-        {
-            id: 4,
-            image: proj4,
-            title: 'E-Commerce Platform',
-            desc: 'Generate image from text',
-            tech: ['React', 'Node.js', 'MongoDB']
-        },
-        {
-            id: 5,
-            image: proj5,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
-        },
-        {
-            id: 6,
-            image: proj6,
-            title: 'E-Commerce Platform',
-            desc: 'Modern e-commerce solution',
-            tech: ['React', 'Node.js', 'MongoDB']
-        },
+        // {
+        //     id: 3,
+        //     image: proj3,
+        //     title: 'AI image Generator',
+        //     desc: 'Modern e-commerce solution',
+        //     tech: ['Python', 'React', 'Tensorflow']
+        // },
+        // {
+        //     id: 4,
+        //     image: proj4,
+        //     title: 'E-Commerce Platform',
+        //     desc: 'Generate image from text',
+        //     tech: ['React', 'Node.js', 'MongoDB']
+        // },
+        // {
+        //     id: 5,
+        //     image: proj5,
+        //     title: 'E-Commerce Platform',
+        //     desc: 'Modern e-commerce solution',
+        //     tech: ['React', 'Node.js', 'MongoDB']
+        // },
+        // {
+        //     id: 6,
+        //     image: proj6,
+        //     title: 'E-Commerce Platform',
+        //     desc: 'Modern e-commerce solution',
+        //     tech: ['React', 'Node.js', 'MongoDB']
+        // },
 
     ]
   return (

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Award,ShieldCheck,Calendar,ExternalLink} from 'lucide-react'
+import native from '../assets/certi_native.png'
+import certificate_react from '../assets/certi_react.pdf'
 
 const Certificates = () => {
     const certifications = [
@@ -8,7 +10,7 @@ const Certificates = () => {
             title: 'CS50xNepal AI',
             issuer: 'EXCESS, Purwanchal Campus',
             date: 'Dec 2025',
-            link: '#',
+            link: '',
             desc: 'This course is the nepali adaptation of CS50AI. This course teaches the foundation of AI'
         },
         {
@@ -16,15 +18,15 @@ const Certificates = () => {
             title: 'React Native',
             issuer: 'ACES, Purwanchal Campus',
             date: 'June 2026',
-            link: '#',
+            link: native,
             desc: 'This course was taught to us by a developer who had more than 3 years of experience on the relate field and we learned about how to make apps using react native'
         },
         {
             id: 3,
-            title: 'FullStack Development',
+            title: 'ReactJs',
             issuer: 'Digital Pathsala, Ithari',
             date: 'Sep 2026',
-            link: '#',
+            link: certificate_react,
             desc: 'This course was taught to us by a digital pathshala and learned about all full stack. From basic crud application to all fully functioning student management system it tought us all'
         },
     ]
