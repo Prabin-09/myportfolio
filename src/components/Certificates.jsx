@@ -2,15 +2,16 @@ import React from 'react'
 import { Award,ShieldCheck,Calendar,ExternalLink} from 'lucide-react'
 import native from '../assets/certi_native.png'
 import certificate_react from '../assets/certi_react.pdf'
+import certificate_cyber from '../assets/certificate_cybersecurity.png'
 
 const Certificates = () => {
     const certifications = [
         {
             id: 1,
-            title: 'CS50xNepal AI',
-            issuer: 'EXCESS, Purwanchal Campus',
+            title: 'Into the blue: Cyberdefence 101',
+            issuer: 'CYBER ALERT NEPAL',
             date: 'Dec 2025',
-            link: '',
+            link:  certificate_cyber,
             desc: 'This course is the nepali adaptation of CS50AI. This course teaches the foundation of AI'
         },
         {

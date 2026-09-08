@@ -12,13 +12,13 @@ const Education = () => {
             duration: "2023 - present",
             details: 'Built a strong foundation in algorithms, software engineering, databases, networking, operating systems, and modern web development while collaborating on academic projects.'
         },
-        {
-            id: 2,
-            degree: "Advanced Web Development",
-            institution: "Ms design",
-            duration: "2025 - 2026",
-            details: 'It is one of the solid experience that helped me to learn many thing'
-        },
+        // {
+        //     id: 2,
+        //     degree: "CS50AIXNEPAL",
+        //     institution: "EXCESS,Purwanchal Campus, Dharan",
+        //     duration: "2025 - 2026",
+        //     details: 'A valuable learning experience that strengthened my understanding of artificial intelligence and provided hands-on exposure to practical AI concepts, problem-solving, and real-world applications.'
+        // },
        
     ];
 

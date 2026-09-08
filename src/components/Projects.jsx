@@ -1,10 +1,7 @@
 import React from 'react'
 import proj1 from '../assets/proj01.png';
-import proj2 from '../assets/proj2.png';
-import proj3 from '../assets/proj3.png';
-import proj4 from '../assets/proj4.png';
-import proj5 from '../assets/proj5.png';
-import proj6 from '../assets/proj6.png';
+import proj2 from '../assets/proj02.png';
+
 
 const Projects = () => {
     const projects = [
@@ -18,9 +15,9 @@ const Projects = () => {
         {
             id: 2,
             image: proj2,
-            title: 'Fiteness Tracker',
-            desc: 'Tracks workouts and nutritions',
-            tech: ['React Native', 'firebase']
+            title: 'PlacePrep',
+            desc: 'An ML-powered placement preparation platform for resume analysis, aptitude assessment, technical evaluation, and AI-driven performance insights with integrated online proctoring.',
+            tech: ['Django','PostgreSQL','FastAPI','React', 'scikit-learn','OpenCV','spaCy']
         },
         // {
         //     id: 3,
